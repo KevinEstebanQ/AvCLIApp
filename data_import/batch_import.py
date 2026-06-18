@@ -51,7 +51,7 @@ def import_from_csv(filepath: Path):
                         session.add(PersonAssignment(person_id=person.id,
                                                       assignment_type_id=assignment_type.id))
                 session.commit()
-                print("Done importing")
+            print("Done importing")
 
 
 

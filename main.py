@@ -28,6 +28,9 @@ def process(filename):
         if not path.is_file:
             click.echo("file does not exist")
             logger.error("file does not exits")
+        else:
+            import_from_csv(path)
+            
     else: 
         path = Path(__file__).resolve().parent / "data_import"
         path_dir: dict[int, Path] = dict()
@@ -44,7 +47,7 @@ def process(filename):
             logger.error("incorrect path selected")
         else:
             import_from_csv(selected_path)
-            
+
         
 if __name__ == "__main__":
     cli()

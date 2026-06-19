@@ -3,3 +3,7 @@ default - INFO - db seeded
 default - INFO - roles listed to user
 2026-06-18 17:35:59,187 - INFO - db initialized
 2026-06-18 17:35:59,197 - INFO - db seeded
+2026-06-18 17:40:15,726 - INFO - db initialized
+2026-06-18 17:40:15,737 - INFO - db seeded
+2026-06-18 17:40:29,769 - INFO - db initialized
+2026-06-18 17:40:29,778 - INFO - db seeded
